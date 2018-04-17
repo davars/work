@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/davars/work"
 	"github.com/garyburd/redigo/redis"
-	"github.com/gocraft/work"
 	"github.com/stretchr/testify/assert"
 )
 

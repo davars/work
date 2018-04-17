@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/garyburd/redigo/redis"
-	"github.com/gocraft/work"
 	"os"
 	"time"
+
+	"github.com/davars/work"
+	"github.com/garyburd/redigo/redis"
 )
 
 var redisHostPort = flag.String("redis", ":6379", "redis hostport")
